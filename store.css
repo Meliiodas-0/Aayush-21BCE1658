@@ -1,0 +1,543 @@
+.lists{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50px repeat(4, 1fr);
+    grid-column-gap: 9px;
+    grid-row-gap: 100px;
+    }
+    
+    .top{ grid-area: 1 / 1 / 2 / 5; }
+    .a{ grid-area: 2 / 1 / 3 / 2; }
+    .b{ grid-area: 2 / 2 / 3 / 3; }
+    .c{ grid-area: 2 / 3 / 3 / 4; }
+    .d{ grid-area: 2 / 4 / 3 / 5; }
+    .e{ grid-area: 3 / 1 / 4 / 2; }
+    .f{ grid-area: 3 / 2 / 4 / 3; }
+    .g{ grid-area: 3 / 3 / 4 / 4; }
+    .h{ grid-area: 3 / 4 / 4 / 5; }
+    .i { grid-area: 4 / 1 / 5 / 2; }
+    .j { grid-area: 4 / 2 / 5 / 3; }
+    .k { grid-area: 4 / 3 / 5 / 4; }
+    .l { grid-area: 4 / 4 / 5 / 5; }
+    .m { grid-area: 5 / 1 / 6 / 2; }
+    .n { grid-area: 5 / 2 / 6 / 3; }
+    .o { grid-area: 5 / 3 / 6 / 4; }
+    .p { grid-area: 5 / 4 / 6 / 5; }
+
+    .top {
+        overflow: hidden;
+        background-color: #e9e9e9;
+      }
+      
+      .top a {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      .top a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      .top a.active {
+        background-color: #2196F3;
+        color: white;
+      }
+      
+      .top .search-container {
+        float: right;
+      }
+      
+      .top input[type=text] {
+        padding: 6px;
+        margin-top: 8px;
+        font-size: 17px;
+        border: none;
+      }
+      
+      .top .search-container button {
+        float: right;
+        padding: 6px 10px;
+        margin-top: 8px;
+        margin-right: 16px;
+        background: #ddd;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .top .search-container button:hover {
+        background: #ccc;
+      }
+      
+      @media screen and (max-width: 600px) {
+        .top .search-container {
+          float: none;
+        }
+        .top a, .top input[type=text], .top .search-container button {
+          float: none;
+          display: block;
+          text-align: left;
+          width: 100%;
+          margin: 0;
+          padding: 14px;
+        }
+        .top input[type=text] {
+          border: 1px solid #ccc;  
+        }
+      }
+    
+.a {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .a {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .a button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;di
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .a button:hover {
+    opacity: 0.7;
+  }
+
+  .b {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .b {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .b button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;di
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .b button:hover {
+    opacity: 0.7;
+  }
+  .c {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .c {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .c button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;di
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .c button:hover {
+    opacity: 0.7;
+  }
+  .d {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .d {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .d button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;di
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .d button:hover {
+    opacity: 0.7;
+  }
+  .e {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .e {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .e button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;di
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .e button:hover {
+    opacity: 0.7;
+  }
+  .f {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .f {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .f button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;di
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .f button:hover {
+    opacity: 0.7;
+  }
+  .g {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .g {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .g button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;di
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .g button:hover {
+    opacity: 0.7;
+  }
+  .h {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .h {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .h button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;di
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .h button:hover {
+    opacity: 0.7;
+  }
+  .i {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .i {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .i button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;di
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .i button:hover {
+    opacity: 0.7;
+  }
+  .j {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .j {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .j button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;di
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .j button:hover {
+    opacity: 0.7;
+  }
+  .k {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .k {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .k button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;di
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .k button:hover {
+    opacity: 0.7;
+  }
+  .l {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .l {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .l button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;di
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .l button:hover {
+    opacity: 0.7;
+  }
+  .m {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .m {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .m button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;di
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .m button:hover {
+    opacity: 0.7;
+  }
+  .n {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .n {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .n button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;di
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .n button:hover {
+    opacity: 0.7;
+  }
+  .o {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .o {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .o button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;di
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .o button:hover {
+    opacity: 0.7;
+  }
+  .p {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .p {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .p button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;di
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .p button:hover {
+    opacity: 0.7;
+  }
