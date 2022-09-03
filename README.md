@@ -1,6 +1,6 @@
 # Aayush-21BCE1658
 it was fun creating this website ...
-as you can see right now this website is not 100% responsive and i am working on this onl, it could take some time as i also do ui/ux and vfx {basically exploring everything in my first year :)   }
+as you can see right now this website is not 100% responsive and i am working on this onl, it could take some time as I focus on game development n i also do ui/ux and vfx {basically exploring everything in my 1st,2nd years :)   }
 
 
 
